@@ -7,7 +7,7 @@ Bem-vindo ao meu repositório de projetos! Aqui você encontrará uma coleção 
 | Projeto             | Descrição                                                                     | Tecnologias |
 | ------------------ | ----------------------------------------------------------------------------- | ----------- |
 | [Projeto Android](https://souzastack.github.io/Meus-Projetos/projeto-android/)    | Página web responsiva sobre a história do mascote Android. Design moderno.      | HTML5, CSS3 |
-| [Projeto Cordel](https://souzastack.github.io/Meus-Projetos/projeto-cordel)    | Página web no estilo da literatura de cordel, utilizando efeitos de parallax e textos baseados em versos de Milton Duarte.      | HTML5, CSS3 |
+| [Projeto Cordel](https://souzastack.github.io/Meus-Projetos/projeto-cordel)    | Página web inspirada no cordel, com parallax e versos de Milton Duarte.      | HTML5, CSS3 |
 
 ## 📞 Contato
 

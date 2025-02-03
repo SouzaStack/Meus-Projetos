@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+    <title>SouzaStack - Desenvolvedor Front-End</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="iphone">
-            <iframe src="src/home.html" name="tela" id="tela" frameborder="0"></iframe>
+    <main class="main-content">
+        <section class="iphone-container">
+            <img src="image/frame-iphone.png" alt="Frame do iPhone">
+            <iframe src="src/home.html" name="tela" class="iphone-screen" frameborder="0">
+                <p>Parece que seu navegador não é compatível com este site. Recomendamos usar Chrome, Firefox ou Edge.</p>
+            </iframe>
         </section>
-        <section id="redes-sociais"></section>
+
+        <div class="text-wrapper">
+            <h1>Olá 👋, eu sou <span>SouzaStack</span></h1>
+            <p>Este projeto foi desenvolvido com o Curso em Vídeo e aprimorado por mim, com ajustes feitos com dedicação e paixão pelo aprendizado.</p>
+        </div>
+
+        <nav class="social-nav">
+            <a href="#" target="tela" class="social-link"><img src="image/logo-home.png" alt="Home" class="social-icon"></a>
+            <a href="#" target="tela" class="social-link"><img src="image/logo-github.png" alt="GitHub" class="social-icon"></a>
+            <a href="#" target="tela" class="social-link"><img src="image/logo-instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#" target="tela" class="social-link"><img src="image/logo-youtube.png" alt="YouTube" class="social-icon"></a>
+        </nav>
     </main>
 </body>
 </html>

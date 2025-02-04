@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --primary-color: #9F6496;
     --secondary-color: #ecd4ea;
@@ -113,6 +115,17 @@ body {
     cursor: pointer;
 }
 
+h2 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#8395ac, #7135d1);
+    -webkit-background-clip: text;
+
+    font-family: "Bookmarks", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin: 0px;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .main-content {
@@ -127,8 +140,9 @@ body {
     .social-nav {
         margin: 10px 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.755rem;
     }
+
     .text-wrapper > h1 {
         font-size: 1.4em;
         margin: 5px;
@@ -136,7 +150,7 @@ body {
     }
 
     .iphone-container {
-        width: 63vw;
+        width: 27.0vw;
     }
 
     .social-nav {
@@ -144,5 +158,33 @@ body {
         justify-content: center;
         margin-top: 20px;
         gap: 25px;
+    }
+
+    @media (min-width: 2560px) {
+        .text-wrapper > h1, h2 {
+            font-size: 4.5rem;
+            width: 700px;
+        }
+        .text-wrapper > p {
+            font-size: 2.2rem;
+            width: 940px;
+        }
+        .social-nav > a > img {
+            height: 90px;
+            width: 90px;
+            margin: 0px 0px 40px 550px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .h1, h1 {
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (max-width: 360px) {
+        .iphone-container {
+            width: 45vw !important;
+        }
     }
 }

@@ -15,6 +15,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -124,6 +125,16 @@ h2 {
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0px;
+}
+
+/* Paginas da Navegação */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+img.social-img {
+    width: 100vw;
 }
 
 /* Responsividade */

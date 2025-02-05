@@ -155,13 +155,11 @@ img.social-img {
     }
 
     .text-wrapper > h1 {
-        font-size: 1.4em;
-        margin: 5px;
-        width: 100%;
+        font-size: 2.5em;
     }
 
     .iphone-container {
-        width: 27.0vw;
+        width: 17vw;
     }
 
     .social-nav {

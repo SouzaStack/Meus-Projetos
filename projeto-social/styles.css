@@ -118,10 +118,15 @@ body {
     cursor: pointer;
 }
 
-h2 {
-    -webkit-text-fill-color: transparent;
+ h2 {
     background: -webkit-linear-gradient(#8395ac, #7135d1);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+
+    /* Fallback para navegadores que não suportam -webkit */
+    color: #8395ac;
 
     font-family: "Bookmarks", "Helvetica Neue", Helvetica, Arial;
     font-weight: 700;

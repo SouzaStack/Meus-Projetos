@@ -1,0 +1,7 @@
+/* Partials */
+@import url(global/fonts.css);
+@import url(global/variables.css);
+@import url(global/login.css);
+@import url(global/register.css);
+@import url(global/media-query.css);
+@import url(global/resetG.css);

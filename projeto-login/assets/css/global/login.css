@@ -1,0 +1,105 @@
+section.login {
+    background-color: var(--cor-primavera);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.login > div {
+    background-color: var(--cor-fundo);
+    border-radius: 30px;
+    padding: 40px;
+    height: 520px;
+    width: 400px;
+}
+
+section.login > div > h1 {
+    font-family: var(--font-logo);
+
+    font-size: 2em;
+    text-align: center;
+}
+
+section.login > div > h2 {
+    font-family: var(--font-logo);
+    color: var(--cor-outono);
+
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section.login > div > p {
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 30px 0;
+}
+
+section.login > div > p > span {
+    font-weight: bold;
+}
+
+section.login > div > form > label:nth-child(-n + 3) {
+    display: block;
+    font-family: var(--font-text);
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+section.login > div > form > input {
+    margin: 5px 0 20px;
+    width: 100%;
+
+    border: 0;
+    outline: 0;
+
+    font-family: var(--font-text);
+    font-size: 1em;
+    border-bottom: 2px solid rgb(185, 185, 185);
+}
+
+form > .slembrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-text);
+    font-weight: 300;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.slembrar > p > a {
+    font-family: var(--font-text);
+    color: var(--cor-primavera);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.login form > input[type=submit] {
+    background-color: var(--cor-primavera);
+    color: var(--cor-fundo);
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login form > input[type=submit]:hover {
+    background-color: var(--cor-outono);
+}
+
+.register {
+    text-align: center;
+    gap: 5px;
+}
+
+.register > a {
+    color: var(--cor-outono);
+    text-decoration: none;
+}
+
+.register > a:hover {
+    text-decoration: underline;
+}

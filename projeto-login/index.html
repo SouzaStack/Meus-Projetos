@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div>
+                <h1>LOGOMARCA</h1>
+                <h2>SOLUÇÕES EM FROTA</h2>
+                <p>Acesse o <span>PORTAL DE GESTÃO</span></p>
+
+                <form action="login.php">
+                    <label for="ilogin">USUÁRIO</label>
+                    <input type="text" name="login" id="ilogin" placeholder="Digite seu login" required>
+                
+                    <label for="isenha">SENHA</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required>
+
+                    <div class="slembrar">
+                        <input type="checkbox" name="lembrar" id="ilembrar">
+                        <label for="ilembrar">Manter Conectado</label>
+                        <p><a href="#">Recuperar Senha</a></p>
+                    </div>
+
+                    <input type="submit" value="ENTRAR">
+                    <p class="register">Ainda não possui uma conta? <a href="#">Clique Aqui</a></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="imagem">
+        </section>
+    </main>
+</body>
+</html>

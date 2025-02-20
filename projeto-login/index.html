@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicons/login.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tela de Login</title>
 </head>
 <body>
     <main>
-        <section class="login">
+        <section class="login section-um">
             <div>
-                <h1>LOGOMARCA</h1>
-                <h2>SOLUÇÕES EM FROTA</h2>
-                <p>Acesse o <span>PORTAL DE GESTÃO</span></p>
+                <h1>SOUZA STACK</h1>
+                <h2>Inovação em Sistemas</h2>
+                <p>Acesse o <span>PAINEL ESTRATÉGICO</span></p>
 
                 <form action="login.php">
                     <label for="ilogin">USUÁRIO</label>
@@ -28,12 +29,19 @@
                     </div>
 
                     <input type="submit" value="ENTRAR">
-                    <p class="register">Ainda não possui uma conta? <a href="#">Clique Aqui</a></p>
+                    <p class="register">Ainda não possui uma conta? <a href="register.html">Clique Aqui</a></p>
                 </form>
             </div>
         </section>
 
-        <section class="imagem">
+        <section class="imagem section-dois">
+            <picture>
+                <source media="(max-width: 670px)" srcset="assets/images/capa.jpg">
+                <img src="assets/images/capa.png" alt="Login">
+            </picture>
+            <div>
+                <a href="https://wa.me/5571987393451" target="_blank"><img src="assets/images/whatsapp.png" alt="">Chame no WhatsApp</img></a>
+            </div>
         </section>
     </main>
 </body>

@@ -1,7 +1,8 @@
+/* Global */
+@import url(global/global.css);
+
 /* Partials */
-@import url(global/fonts.css);
-@import url(global/variables.css);
-@import url(global/login.css);
-@import url(global/register.css);
-@import url(global/media-query.css);
-@import url(global/resetG.css);
+@import url(./partials/section-um.css);
+@import url(./partials/section-dois.css);
+@import url(./partials/section-tres.css);
+@import url(./partials/section-quatro.css);

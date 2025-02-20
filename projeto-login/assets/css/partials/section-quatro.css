@@ -1,0 +1,82 @@
+section.description {
+    background-color: var(--cor-primavera);
+}
+
+section.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.register > div {
+    background-color: var(--cor-fundo);
+    border-radius: 30px;
+    height: 520px;
+    width: 400px;
+}
+
+section.register > div > h1 {
+    font-family: var(--font-logo);
+    color: var(--cor-outono);
+
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+}
+
+section.register > div > p {
+    font-family: var(--font-text);
+    color: var(--cor-group);
+
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section.register > div > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: var(--font-text);
+    color: var(--cor-group);
+    font-weight: bold;
+}
+
+section.register > div > form > input {
+    margin-bottom: 25px;
+    padding: 0 50px;
+    width: 100%;
+
+    border: 0;
+    outline: 0;
+
+    font-family: var(--font-text);
+    border-bottom: var(--cor-linhas);
+}
+
+section.register form > input[type=submit] {
+    background-color: var(--cor-primavera);
+    box-shadow: var(--cor-shadbut);
+    color: var(--cor-fundo);
+
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    border: 0;
+
+    cursor: pointer;
+}
+
+section.register form > input[type=submit]:hover {
+    background-color: var(--cor-outono);
+}
+
+section.register form > img {
+    position: relative;
+    top: 15px;
+    left: -45%;
+}

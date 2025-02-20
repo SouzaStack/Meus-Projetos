@@ -17,9 +17,11 @@ section.login > div {
 
 section.login > div > h1 {
     font-family: var(--font-logo);
+    color: var(--cor-outono);
 
     font-size: 2em;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 
 section.login > div > h2 {
@@ -40,13 +42,13 @@ section.login > div > p {
 
 section.login > div > p > span {
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 section.login > div > form > label:nth-child(-n + 3) {
     display: block;
     font-family: var(--font-text);
     font-weight: 300;
-    font-size: 1.2em;
 }
 
 section.login > div > form > input {
@@ -57,8 +59,7 @@ section.login > div > form > input {
     outline: 0;
 
     font-family: var(--font-text);
-    font-size: 1em;
-    border-bottom: 2px solid rgb(185, 185, 185);
+    border-bottom: var(--cor-linhas);
 }
 
 form > .slembrar {
@@ -98,6 +99,7 @@ form > .slembrar {
 .register > a {
     color: var(--cor-outono);
     text-decoration: none;
+    font-family: var(--font-text);
 }
 
 .register > a:hover {

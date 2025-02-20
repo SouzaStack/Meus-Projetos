@@ -1,0 +1,36 @@
+section.imagem {
+    height: 100vh;
+    width: 50vw;
+}
+
+section.imagem > picture {
+    height: 100vh;
+    width: 100vw;
+}
+
+section.imagem > div {
+    display: flex;
+    justify-content: end;
+    padding: 20px 30px;
+}
+
+section.imagem > div > a {
+    background-color: var(--cor-whats);
+    box-shadow: var(--cor-whatsshadow);
+    color: var(--cor-fundo);
+
+    font-family: var(--font-text);
+    text-decoration: none;
+
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.imagem > div > a:hover {
+    background-color: var(--cor-whatshover);
+}

@@ -7,11 +7,14 @@
     box-sizing: border-box;
 }
 
-main {
+body, html, main {
     display: flex;
+    
+    width: 100vw;
+    height: 100vh;
 }
 
-body, html, section {
-    width: 100vw;
+section {
+    width: 50vw;
     height: 100vh;
 }

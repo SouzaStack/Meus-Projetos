@@ -1,7 +1,7 @@
 section.login {
     background-color: var(--cor-primavera);
 
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -9,35 +9,46 @@ section.login {
 
 section.login > div {
     background-color: var(--cor-fundo);
+    box-shadow: var(--cor-shadbut);
     border-radius: 30px;
-    padding: 40px;
-    height: 520px;
-    width: 400px;
+
+    height: 80%;
+    width: 60%;
 }
 
-section.login > div > h1 {
+main > section.login > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.login > div > header {
     font-family: var(--font-logo);
     color: var(--cor-outono);
 
-    font-size: 2em;
     text-align: center;
+    width: 100%;
+}
+
+section.login > div > header > h1 {
+    font-size: 2.2vw;
     letter-spacing: 1.5px;
 }
 
-section.login > div > h2 {
-    font-family: var(--font-logo);
-    color: var(--cor-outono);
-
-    font-size: 1.2em;
-    text-align: center;
+section.login > div > header > h2 {
+    font-size: 1.2vw;
 }
 
 section.login > div > p {
     font-family: var(--font-text);
+
+    display: block;
+    margin: 25px 0; /* Adiciona espaço após a quebra de linha */
+
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4vw;
     font-weight: 300;
-    padding: 30px 0;
 }
 
 section.login > div > p > span {
@@ -45,13 +56,15 @@ section.login > div > p > span {
     letter-spacing: 1px;
 }
 
-section.login > div > form > label:nth-child(-n + 3) {
-    display: block;
-    font-family: var(--font-text);
-    font-weight: 300;
+section.login > div > form {
+    margin: 0 auto;
+    height: 50%;
+    width: 80%;
 }
 
-section.login > div > form > input {
+form > div.painel > input:nth-child(-n + 4) {
+    display: flex;
+
     margin: 5px 0 20px;
     width: 100%;
 
@@ -62,28 +75,38 @@ section.login > div > form > input {
     border-bottom: var(--cor-linhas);
 }
 
-form > .slembrar {
+form > div.painel > div.reminder {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     font-family: var(--font-text);
     font-weight: 300;
-    margin-bottom: 20px;
-    gap: 5px;
 }
 
-.slembrar > p > a {
+input#ilembrar {
+    margin-right: 5px; /* Afasta a checkbox da label */
+}
+
+div.reminder > p > a {
     font-family: var(--font-text);
     color: var(--cor-primavera);
+
+    text-align: justify;
+
     font-weight: 600;
-    margin-left: 5px;
+    font-size: 1.1vw;
+    margin-left: 10px;
 }
 
 .login form > input[type=submit] {
     background-color: var(--cor-primavera);
     color: var(--cor-fundo);
-    padding: 10px;
+
+    width: 100%;
+    height: 20%;
+    margin: 5% 0;
+
     border-radius: 30px;
+    border: none;
     cursor: pointer;
 }
 
@@ -91,17 +114,19 @@ form > .slembrar {
     background-color: var(--cor-outono);
 }
 
-.register {
-    text-align: center;
+.login form > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     gap: 5px;
 }
 
-.register > a {
+.login form > p > a {
     color: var(--cor-outono);
     text-decoration: none;
-    font-family: var(--font-text);
 }
 
-.register > a:hover {
+.login form > p > a:hover {
     text-decoration: underline;
 }

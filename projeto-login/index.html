@@ -11,34 +11,36 @@
     <main>
         <section class="login section-um">
             <div>
-                <h1>SOUZA STACK</h1>
-                <h2>Inovação em Sistemas</h2>
+                <header>
+                    <h1>SOUZA STACK</h1>
+                    <h2>Inovação em Sistemas</h2>
+                </header>
                 <p>Acesse o <span>PAINEL ESTRATÉGICO</span></p>
-
+                <br>
                 <form action="login.php">
-                    <label for="ilogin">USUÁRIO</label>
-                    <input type="text" name="login" id="ilogin" placeholder="Digite seu login" required>
-                
-                    <label for="isenha">SENHA</label>
-                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required>
+                    <div class="painel">
+                        <label for="ilogin">USUÁRIO</label>
+                        <input type="text" name="login" id="ilogin" placeholder="Digite seu login" required>
 
-                    <div class="slembrar">
-                        <input type="checkbox" name="lembrar" id="ilembrar">
-                        <label for="ilembrar">Manter Conectado</label>
-                        <p><a href="#">Recuperar Senha</a></p>
+                        <label for="isenha">SENHA</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required>
+
+                        <div class="reminder">
+                            <label for="ilembrar">
+                                <input type="checkbox" name="lembrar" id="ilembrar">Manter Conectado
+                            </label>
+                            <p><a href="#">Recuperar Senha</a></p>
+                        </div>
                     </div>
 
                     <input type="submit" value="ENTRAR">
-                    <p class="register">Ainda não possui uma conta? <a href="register.html">Clique Aqui</a></p>
+                    <p>Ainda não possui uma conta? <a href="register.html">Clique Aqui</a></p>
                 </form>
             </div>
         </section>
 
         <section class="imagem section-dois">
-            <picture>
-                <source media="(max-width: 670px)" srcset="assets/images/capa.jpg">
-                <img src="assets/images/capa.png" alt="Login">
-            </picture>
+            <img src="assets/images/capa.png" alt="Imagem de capa">
             <div>
                 <a href="https://wa.me/5571987393451" target="_blank"><img src="assets/images/whatsapp.png" alt="">Chame no WhatsApp</img></a>
             </div>

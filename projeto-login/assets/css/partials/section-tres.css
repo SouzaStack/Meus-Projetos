@@ -1,3 +1,42 @@
-section.imagem {
-    background-color: var(--cor-fundo);
+section.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.description > div > h1 {
+    font-family: var(--font-logo);
+    color: var(--cor-fundo);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+section.description > p {
+    font-family: var(--font-padrao);
+    color: var(--cor-fundo);
+    text-align: justify;
+    width: 85%;
+    font-size: 1.2em;
+}
+
+section.description > h2{
+    font-family: var(--font-text);
+    font-size: 0.9em;
+    margin: 65px 0 10px;
+}
+
+section.description > a {
+    text-decoration: none;
+    color: var(--cor-fundo);
+    border: 2px solid var(--cor-fundo);
+    border-radius: 35px;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+
+section.description > a:hover {
+    background-color: var(--cor-butreg);
+    color: var(--cor-fundo);
 }

@@ -1,42 +1,55 @@
 section.description {
+    background-color: var(--cor-primaria);
+
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
-section.description > div > h1 {
-    font-family: var(--font-logo);
-    color: var(--cor-fundo);
-    font-size: 1.5em;
+section.description .container {
+    max-width: 85.5%;
+}
+
+section.description .container > h1 {
+    font-family: var(--fonte-secundaria);
+    text-shadow: var(--sombra-padrao);
+    color: var(--cor-texto-claro);    
+
+    font-size: 6.5vh;
     font-weight: 600;
-    padding-bottom: 40px;
 }
 
-section.description > p {
-    font-family: var(--font-padrao);
-    color: var(--cor-fundo);
+section.description .container > p {
+    font-family: var(--fonte-secundaria);
     text-align: justify;
-    width: 85%;
-    font-size: 1.2em;
+    font-weight: 320;
+    font-size: 3vh;
+    margin: 25px 0px 45px 0px;
 }
 
-section.description > h2{
-    font-family: var(--font-text);
-    font-size: 0.9em;
-    margin: 65px 0 10px;
+section.description .container > h2 {
+    font-family: var(--fonte-primaria);
+    font-size: 2.7vh;
+    font-weight: 600;
 }
 
-section.description > a {
+section.description .container > a {
+    border-radius: var(--borda-radius-media);
+    border: 2px solid var(--cor-borda);
+    box-shadow: var(--sombra-padrao);
+    color: var(--cor-texto-botao);
+
+    display: inline-block;
     text-decoration: none;
-    color: var(--cor-fundo);
-    border: 2px solid var(--cor-fundo);
-    border-radius: 35px;
-    padding: 15px 60px;
-    cursor: pointer;
+
+    padding: 12px 40px;
+    margin: 15px 0;
+
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
 }
 
-section.description > a:hover {
-    background-color: var(--cor-butreg);
-    color: var(--cor-fundo);
+section.description .container > a:hover {
+    background-color: var(--cor-botao-hover);
 }

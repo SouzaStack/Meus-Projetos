@@ -10,33 +10,37 @@
 <body>
     <main>
         <section class="description section-tres">
-            <div>
+            <div class="container">
                 <h1>Já faz parte da nossa comunidade?</h1>
+                <p>Aqui, você tem acesso a um sistema completo, feito para oferecer praticidade e segurança. Com sua conta, você pode gerenciar seu perfil, acompanhar seu progresso e aproveitar todas as funcionalidades exclusivas. Se você já possui um cadastro, faça login agora mesmo e continue sua jornada sem interrupções.</p>
+                <h2>Continue exatamente de onde parou...</h2>
+                <a href="index.html" class="btn-primario">Acessar minha conta</a>
             </div>
-            <p>Aqui, você tem acesso a um sistema completo, feito para oferecer praticidade e segurança. Com sua conta, você pode gerenciar seu perfil, acompanhar seu progresso e aproveitar todas as funcionalidades exclusivas. Se você já possui um cadastro, faça login agora mesmo e continue sua jornada sem interrupções.</p>
-            <h2>Continue exatamente de onde parou...</h2>
-            <a href="index.html">Acessar minha conta</a>
         </section>
 
         <section class="register section-quatro">
+            <div class="container">
                 <h1>Crie sua conta</h1>
                 <p>Junte-se à Plataforma</p>
-
                 <form action="register.php">
-                    <label for="rlogin">NOME</label>
-                    <img src="assets/images/person.png" alt="Personagem">
-                    <input type="text" name="text" id="rlogin" required></input>
+                    <div class="input-group">
+                        <label for="nlogin">NOME</label>
+                        <input type="text" name="text" id="nlogin" placeholder="Digite seu nome" required>
 
-                    <label for="remail">EMAIL</label>
-                    <img src="assets/images/mail.png" alt="Email">
-                    <input type="email" name="email" id="remail" required></input>
+                        <label for="nemail">EMAIL</label>
+                        <input type="email" name="email" id="nemail" placeholder="Digite seu email" required>
 
-                    <label for="rpassord">SENHA</label>
-                    <img src="assets/images/lock.png" alt="Senha">
-                    <input type="password" name="password" id="rpassord" required></input>
+                        <label for="npassword">SENHA</label>
+                        <input type="password" name="password" id="npassword" placeholder="Crie uma senha segura" required>
 
-                    <input type="submit" value="CADASTRAR">
+                        <label for="cpassword">CONFIRMAR SENHA</label>
+                        <input type="password" name="password" id="cpassword" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="gatilho">
+                        <input type="submit" value="Cadastrar">
+                    </div>
                 </form>
+            </div>
         </section>
     </main>
 </body>

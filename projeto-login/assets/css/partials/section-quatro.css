@@ -1,75 +1,90 @@
-section.description {
-    background-color: var(--cor-primavera);
-}
-
 section.register {
+    background-color: var(--cor-fundo);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.register .container {
+    border-radius: var(--borda-radius-grande);
+    border: 2px solid var(--cor-secundaria);
+    box-shadow: var(--sombra-padrao);
+
+    height: 85%;
+    width: 50%;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-section.register > h1 {
-    font-family: var(--font-logo);
-    color: var(--cor-outono);
-
-    font-size: 2em;
-    text-align: center;
-    letter-spacing: 1.5px;
-    padding-bottom: 5px;
+section.register .container > h1 {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 4.5vh;
 }
 
-section.register > p {
-    font-family: var(--font-text);
-    color: var(--cor-group);
-
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 40px;
+section.register .container > p {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-subtitulo);
+    font-size: 2.5vh;
+    margin: 0px 0px 15px 0px;
 }
 
-section.register > form {
+section.register .container > form {
+    width: 80%;
+}
+
+section.register .input-group {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-
-    font-family: var(--font-text);
-    color: var(--cor-group);
-    font-weight: bold;
+    align-items: flex-start;
 }
 
-section.register > form > input {
-    margin-bottom: 25px;
-    padding: 0 50px;
+section.register .input-group > label {
+    font-family: var(--fonte-primaria);
+    font-size: 2.6vh;
+}
+
+section.register .input-group > input {
+    margin: 0px 0 15px;
+    padding: 10px 0px;
     width: 100%;
 
     border: 0;
     outline: 0;
 
-    font-family: var(--font-text);
-    border-bottom: var(--cor-linhas);
+    font-family: var(--fonte-primaria);
+    font-size: 2.2vh;
 }
 
-section.register form > input[type=submit] {
-    background-color: var(--cor-primavera);
-    box-shadow: var(--cor-shadbut);
-    color: var(--cor-fundo);
+section.register .input-group > input::placeholder {
+    color: var(--cor-subtitulo);
+}
 
-    border-radius: 30px;
-    margin-top: 50px;
-    padding: 10px 50px;
-    border: 0;
+div.gatilho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+div.gatilho > input[type=submit] {
+    border-radius: var(--border-radius-botao);
+    background-color: var(--cor-botao);
+    font-size: var(--tamanho-pequeno);
+    font-family: var(--fonte-padrao);
+    color: var(--cor-texto-botao);
+
+    transition: 0.3s ease-in-out;
+    letter-spacing: 1px;
+    padding: 12px 40px;
     cursor: pointer;
+    border: none;
 }
 
-section.register form > input[type=submit]:hover {
-    background-color: var(--cor-outono);
-}
-
-section.register form > img {
-    position: relative;
-    top: 15px;
-    left: -45%;
+div.gatilho > input[type=submit]:hover {
+    background-color: var(--cor-botao-hover);
 }

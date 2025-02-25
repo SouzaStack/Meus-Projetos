@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+    section.imagem {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    section.login {
+        width: 100vw !important;
+    }
+    section.login > div {
+        width: 40% !important;
+    }
+}

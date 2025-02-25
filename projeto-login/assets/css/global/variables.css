@@ -17,8 +17,14 @@
     /* Tamanhos de Fonte */
     --tamanho-h1: 4.5vh;
     --tamanho-h2: 2.5vh;
-    --tamanho-padrao: 1.2em;
+    --tamanho-padrao: 1.2rem;
     --tamanho-pequeno: 0.9em;
+
+    /* Tamanhos de Fonte */
+    --tamanho-logo: min(30px, 3.7vw);
+    --tamanho-subtxt: min(16px, 2.2vw);
+    --tamanho-label: min(16px, 4vw);
+    --tamanho-button: min(16px, 3vw);
     
     /* Espaçamentos */
     --espacamento-pequeno: 5px;

@@ -1,19 +1,43 @@
 @charset "UTF-8";
 
 * {
-    font-family: var(--font-padrao);
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    border: 0;
     padding: 0;
     margin: 0;
+    color: #ddd;
 }
 
-body, html, main {
-    display: flex;
+html, body {
+    background-color: #252B2B;
     width: 100vw;
     height: 100vh;
 }
 
-section {
-    width: 50vw;
+main {
+    background-image: url('../../images/background.png') !important;
+    background-size: cover !important;
+    width: 100vw;
     height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 40px;
+    gap: 15px;
+}
+
+header > div.circulo {
+    border-radius: 50%;
+    border: 10px solid #DC2011;
+}
+
+header > h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
 }

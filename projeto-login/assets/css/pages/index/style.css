@@ -1,0 +1,8 @@
+@import url('../../global/global.css');
+
+/* Partials */
+@import url('./partials/section-um.css');
+@import url('./partials/section-dois.css');
+
+/* Contatos */
+@import url('../contatos/contato.css');

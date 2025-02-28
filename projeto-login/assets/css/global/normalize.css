@@ -35,7 +35,6 @@ header {
 header > div.circulo {
     border-radius: 50%;
     border: 10px solid #DC2011;
-    color: #673aaf
 }
 
 header > h1 {
